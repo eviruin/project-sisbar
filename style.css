@@ -15,7 +15,7 @@ body {
 }
 
 /* kalo mau ganti main konten hapus aja .utama */
-/* ganti nama class elemen yg punya class .utama */
+/* ganti nama class elemen content yg punya class .utama (kaya id home sama dashboard) */
 /* sesuaikan aja class nya */
 .utama {
   background-size: cover;
