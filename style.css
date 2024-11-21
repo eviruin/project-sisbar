@@ -14,6 +14,8 @@ body {
   background-position: center;
 }
 
+/* kalo mau ganti main konten hapus aja .utama */
+/* ganti nama class elemen yg punya class .utama */
 .utama {
   background-size: cover;
   top: 20%;
@@ -30,6 +32,7 @@ body {
   text-shadow: 3px 2px 5px #000;
   mix-blend-mode:multiply;
 }
+/* sampai sini */
 
 /* navbar section */
 .nav_image {
