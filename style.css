@@ -14,9 +14,6 @@ body {
   background-position: center;
 }
 
-/* kalo mau ganti main konten hapus aja .utama */
-/* ganti nama class elemen content yg punya class .utama (kaya id home sama dashboard) */
-/* sesuaikan aja class nya */
 .utama {
   background-size: cover;
   top: 20%;
@@ -33,9 +30,8 @@ body {
   text-shadow: 3px 2px 5px #000;
   mix-blend-mode:multiply;
 }
-/* sampai sini */
 
-/* navbar section */
+/* navbar */
 .nav_image {
   display: left;
   min-width: 55px;
@@ -95,7 +91,7 @@ body {
 }
 
 .side-bar .menu .item a:hover {
-  background: #8621f8;
+  background: rgba(75, 74, 151);
   transition: 0.3s ease;
 }
 
@@ -179,7 +175,7 @@ body {
 }
 
 .heading span{
-	color: rgb(0, 81, 255);
+	color: rgb(75, 74, 151);
 }
 
 .heading::after{
@@ -190,7 +186,7 @@ body {
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: -5px;
-	background-color: rgb(0, 81, 255);
+	background-color: rgb(75, 74, 151);
 }
 
 .container{
@@ -207,8 +203,8 @@ body {
 	height: 350px;
 	position: relative;
 	border-radius: 10px;
-	background-color: #ffffff1b;
-  backdrop-filter: blur(30px);
+	background-color: #ffffff3d;
+  backdrop-filter: blur(20px);
 	overflow: hidden;
 	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.635);
 	margin:15px;
@@ -232,7 +228,7 @@ body {
 	left: 0;
 	object-fit: fit;
 	transition: .6s;
-	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.37);
+	box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.635);
 	z-index: 99;
 }
 
@@ -259,7 +255,7 @@ body {
 }
 .details h3{
 	font-size: 22px;
-	color: rgb(0, 81, 255);
+	color: rgb(75, 74, 151);
 }
 .details p{
 	font-size: 15px;
