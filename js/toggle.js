@@ -5,7 +5,7 @@ $(document).ready(function () {
     $(this).find(".dropdown").toggleClass("rotate");
   });
 
-  //jquery for expand and collapse the sidebar
+  //jquery expand and collapse the sidebar
   $(".menu-btn").click(function () {
     $(".side-bar").addClass("active");
     $(".menu-btn").css("visibility", "hidden");
